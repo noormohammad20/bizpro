@@ -340,7 +340,7 @@ body {
   align-items: center;
   position: relative;
 }
-.subscribe-content{
+.subscribe-content {
   width: 65%;
 }
 .subscribe-title {
@@ -379,21 +379,19 @@ body {
   position: absolute;
   left: 46%;
   transition: all 0.5s ease-in-out;
- 
 }
-.subscribe-btn:hover{
+.subscribe-btn:hover {
   color: #060640;
   background-color: #ffffff;
   cursor: pointer;
 }
 
-.subscribe-img img{
+.subscribe-img img {
   position: absolute;
   top: -60%;
   left: 70%;
   padding-bottom: 0;
 }
-
 
 /* mobile responsive */
 
@@ -493,5 +491,26 @@ body {
   .global-section {
     width: 55vh;
     margin: 40px auto;
+  }
+  /* subscribe section */
+  .subscribe-section {
+    margin: 10px 20px;
+    padding: 10px 20px;
+  }
+  .subscribe-d-flex {
+    flex-direction: column;
+  }
+  .subscribe-content {
+    width: 100%;
+  }
+  .subscribe-img img {
+    position: static;
+    margin-top: 35px;
+    /* top: -0;
+    left: 0; */
+  }
+  .subscribe-btn {
+    left: 60%;
+    top: 36%;
   }
 }
