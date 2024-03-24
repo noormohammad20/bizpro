@@ -278,8 +278,8 @@ body {
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.2);
 }
-.popular-card:hover{
- background-color: #ffffff;
+.popular-card:hover {
+  background-color: #ffffff;
 }
 .popular-card-img {
   width: 338px;
@@ -315,6 +315,85 @@ body {
   width: 100%;
   height: auto;
 }
+
+/* global section style */
+.global-section {
+  width: 1050px;
+  margin: 70px 100px;
+}
+.global-section img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* subscribe section style */
+.subscribe-section {
+  height: 365px;
+  border-radius: 16px;
+  background: #ecfdff;
+  padding: 60px 60px 0 60px;
+  margin: 40px 60px 110px 40px;
+}
+.subscribe-d-flex {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.subscribe-content{
+  width: 65%;
+}
+.subscribe-title {
+  color: #060640;
+  font-size: 40px;
+  font-weight: 700;
+}
+.subscribe-para {
+  color: #9090a7;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.subscribe-content input {
+  width: 600px;
+  height: 55px;
+  border-radius: 6px;
+  background: #fff;
+  border-style: none;
+}
+.subscribe-content input::placeholder {
+  padding: 20px;
+  color: #9090a7;
+  font-weight: 400;
+}
+.subscribe-btn {
+  height: 40px;
+  color: #ffffff;
+  background-color: #060640;
+  border-radius: 6px;
+  margin-top: 8px;
+  padding: 0px 35px;
+  position: absolute;
+  left: 46%;
+  transition: all 0.5s ease-in-out;
+ 
+}
+.subscribe-btn:hover{
+  color: #060640;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.subscribe-img img{
+  position: absolute;
+  top: -60%;
+  left: 70%;
+  padding-bottom: 0;
+}
+
 
 /* mobile responsive */
 
@@ -404,10 +483,15 @@ body {
     width: 100%;
     margin-top: 50px;
   }
-  .popular-section{
+  .popular-section {
     padding: 50px 20px;
   }
-  .popular-d-flex{
+  .popular-d-flex {
     flex-direction: column;
+  }
+  /* global section */
+  .global-section {
+    width: 55vh;
+    margin: 40px auto;
   }
 }
